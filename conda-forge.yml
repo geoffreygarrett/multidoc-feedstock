@@ -1,0 +1,21 @@
+github:
+  user_or_org: geoffreygarrett
+
+channels:
+  targets:
+  - [ggarrett13, main]
+
+provider:
+  noarch: azure
+
+azure:
+  # flag for forcing the building all supported providers
+  force: True
+  # toggle for storing the conda build_artifacts directory (including the
+  # built packages) as an Azure pipeline artifact that can be downloaded
+  store_build_artifacts: True
+
+build_platform:
+  osx_arm64: osx_64
+test_on_native_only: true
+

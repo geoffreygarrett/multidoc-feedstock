@@ -1,0 +1,5 @@
+#  - 1.16
+channel_targets:
+  - ggarrett13 dev
+channel_sources:
+  - conda-forge, defaults
