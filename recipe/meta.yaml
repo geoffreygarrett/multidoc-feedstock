@@ -1,7 +1,7 @@
 {% set name = "multidoc" %}
 {% set version = "0.6.2" %}
-{% set build = "4" %}
-{% set git_rev = "759a61c19a9679a1835ddb9ab2e733327dd1cf3e" %}
+{% set build = "5" %}
+{% set git_rev = "6888cd042ef6cc5aba7b1210267d69013446bc2e" %}
 
 package:
   name: {{ name|lower }}
